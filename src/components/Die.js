@@ -1,9 +1,11 @@
+import { blue } from '@mui/material/colors';
 import React from 'react';
 
 function Die(props) {
  
   const styles = {
-    backgroundColor: props.isHeld ? "#59E391" : "white"
+    backgroundColor: props.isHeld ? "#59E391" : "white",
+    fontColour: blue
 }
  
  
