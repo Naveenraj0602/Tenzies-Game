@@ -7,36 +7,38 @@ body {
   margin: 0;
 }
 
-
-
-
+/* Adjust .app--container */
 .app--container {
-    width: 560px;
-    height: 579px;
-    position: flex;
-    border: 2px solid grey;
-    background: #336d91;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7.5%;
+  width: 100%;  /* Set width to 100% to fill the entire width of the page */
+  height: 100vh; /* Set height to 100vh to fill the entire viewport height */
+  position: relative; /* Change to relative position */
+  border: 2px solid grey;
+  background: #336d91;
+  margin: 0; /* Remove individual margins */
+  display: flex;
+  flex-direction: column; /* Set flex-direction to column */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
 }
 
-.app--container--two{
-    width: 460px;
-    height: 479px;
-    position: absolute;   /* position relative to outer box */
-    top: 50%;   
-    left: 50%;
-    transform: translate(-50%, -50%); /* translate box by -50% */
-    border: 2px solid grey;
-    background: #F5F5F5;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    align-items: center;
+/* Adjust .app--container--two */
+.app--container--two {
+  width: 460px;
+  height: 479px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid grey;
+  background: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
+
 
 
 .title {
